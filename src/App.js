@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header></Header>;
       <Form todo={todo} setTodo={setTodo} todoList={todoList} setTodoList={setTodoList}></Form>
-      <TodoList todoList={todoList}/>
+      <TodoList setTodoList={setTodoList} todoList={todoList}/>
     </div>
   );
 }

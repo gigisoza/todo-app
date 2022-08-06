@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     font-family: sans-serif;
 }
@@ -10,12 +10,12 @@ body{
     color: wheat;
     padding: 20px;
 }
-.todoform{
+.todoform {
     width: 100%;
     margin: auto;
     margin-top: 20px;
 }
-.todoinput{
+.todoinput {
     width: 100%;
     border: none;
     border-bottom: 2px solid whitesmoke;
@@ -23,12 +23,29 @@ body{
     text-align: center;
     height: 50px;
 }
-.todobutton{
+.todobutton {
     width: 100%;
     border: none;
     font-size: 1.5em;
     height: 50px;
-    background-color: whitesmoke;
-    color: navy;
+    background-color: green;
+    color: wheat;
     margin-top: 30px;
+}
+.todoitem {
+    margin: auto;
+    border: 2px solid gray;
+    padding: 20px;
+    margin-top: 20px;
+}
+.todoname {
+
+}
+.deletebutton {
+    border: none;
+    height: 50px;
+    background-color: green;
+    color: wheat;
+    width: 100px;
+    border-radius: 2px;
 }
